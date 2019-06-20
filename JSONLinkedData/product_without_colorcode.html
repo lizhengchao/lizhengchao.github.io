@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Product without ColorCode - Json Linked Data Test</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "color": ["800", "P01", "PQ5"],
+        "brand": { "@type": "Thing", "name": "ラコステ" },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.lacoste.jp/products/CH1051L",
+          "priceCurrency": "JPY",
+          "price": 15120,
+          "availability": "http://schema.org/OutOfStock"
+        },
+        "name": "ポプリン レギュラーフィットシャツ (長袖)",
+        "description": "かさ高加工を施したコットンポプリンシャツを今シーズンの爽やかなカラーで仕上げました。無理なくコーディネートができるマストハブのシャツです。Regular Fit",
+        "category": "ウェア",
+        "image": [
+          "//assets-lacoste.theplant-dev.com/product_images/16753/file/ch1051l-800-fn.20180409160218178797906.mn.jpg",
+          "//assets-lacoste.theplant-dev.com/product_images/16754/file/ch1051l-800-mb.20180409160418280114130.mn.jpg",
+          "//assets-lacoste.theplant-dev.com/product_images/16755/file/ch1051l-800-sub0.20180409160618283581509.mn.jpg",
+          "//assets-lacoste.theplant-dev.com/product_images/16756/file/ch1051l-800-sub1.20180409160818252707278.mn.jpg",
+          "//assets-lacoste.theplant-dev.com/product_images/16757/file/ch1051l-800-sub2.20180409161018295435894.mn.jpg"
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Product without ColorCode - Json Linked Data Test</h1>
+    <p>
+      Add a "application/ld+json" scirpt to header, See more info at
+      <a
+        href="https://developers.google.com/search/docs/data-types/product"
+        target="_blank"
+        >https://developers.google.com/search/docs/data-types/product</a
+      >
+    </p>
+    <p>
+      Test this page at
+      <a
+        href="https://search.google.com/structured-data/testing-tool/u/0/"
+        target="_blank"
+        >https://search.google.com/structured-data/testing-tool/u/0/</a
+      >
+    </p>
+  </body>
+</html>
