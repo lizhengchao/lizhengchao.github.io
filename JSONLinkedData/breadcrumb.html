@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Breadcrumb - Json Linked Data Test</title>
+    <script type="application/ld+json" class="next-head">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": { "@id": "https://www.lacoste.jp/", "name": "LACOSTE" }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": { "@id": "https://www.lacoste.jp/men", "name": "メンズ" }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@id": "https://www.lacoste.jp/men/clothing",
+              "name": "ウェア"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@id": "https://www.lacoste.jp/men/clothing/shirts",
+              "name": "シャツ"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@id": "https://www.lacoste.jp/products/CH1051L/PQ5",
+              "name": "ポプリン レギュラーフィットシャツ (長袖)"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Breadcrumb - Json Linked Data Test</h1>
+    <p>
+      Add a "application/ld+json" scirpt to header, See more info at
+      https://developers.google.com/search/docs/data-types/breadcrumb
+    </p>
+    <p>
+      Test this page at
+      https://search.google.com/structured-data/testing-tool/u/0/
+    </p>
+  </body>
+</html>
