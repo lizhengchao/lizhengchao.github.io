@@ -1,315 +1,620 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
   <head>
-    <title>Micro site script test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="/static/favicon.png" />
+    <meta charSet="utf-8" class="next-head" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+      class="next-head"
+    />
+    <meta http-equiv="Content-Language" content="ja" class="next-head" />
+    <title class="next-head">
+      ラコステ（LACOSTE）公式オンラインショップ -
+      1933年創業のプレミアム・カジュアルブランド
+    </title>
+    <meta
+      name="description"
+      content="1933年誕生、ワニのマークで有名なLACOSTE(ラコステ)公式オンラインショップ。 フレンチ・エレガンスとスポーツを融合させた独特のスタイルが魅力のポロシャツ、プレミアムカジュアルファッションとスポーツウェアが見つかります。商品到着後1ヶ月以内の返品交換サービス（一部商品を除く）、お客様のデータを保護するセキュアペイメントで安心してお買い物いただけます。"
+      class="next-head"
+    />
+    <meta name="keywords" content="Polos, Shoes, Bags" class="next-head" />
+    <meta
+      property="og:url"
+      content="https://assets-lacoste.theplant-dev.com/system/media_libraries/333/20190327234643/03.28-Keith-Haring.pc@2.jpg?time=1553730404672"
+      class="next-head"
+    />
+    <meta property="og:type" content="type" class="next-head" />
+    <meta
+      property="og:image"
+      content="https://assets-lacoste.theplant-dev.com/system/media_libraries/392/20190619041528/file.jpg"
+      class="next-head"
+    />
+    <meta property="p" content="c" class="next-head" />
+    <script id="mcjs" nonce="nonce">
+      !(function(c, h, i, m, p) {
+        (m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          (m.nonce = "nonce"),
+          p.parentNode.insertBefore(m, p);
+      })(
+        document,
+        "script",
+        "https://chimpstatic.com/mcjs-connected/js/users/a98186cebdf8540a2a5149105/fb12be445df70fd9c96f6330b.js"
+      );
+    </script>
+    <meta
+      name="google-site-verification"
+      content="place-holder-for-demo-site"
+    />
+    <link
+      rel="preload"
+      href="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/h3ulB7yOzdGyxAz53KCXR/pages/pagebuilder.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/h3ulB7yOzdGyxAz53KCXR/pages/_app.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/runtime/webpack-a79426b5e11f0ba5879d.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/chunks/commons.962e504b0f99b805c7b9.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/runtime/main-51be5f2ee146b63c5759.js"
+      as="script"
+    />
+    <style data-styled="jKeOvg ldnizt gUrMiz" data-styled-version="4.2.0">
+      /* sc-component-id: sc-global-3354167925 */
+
+      /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+      html {
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+      }
+      main {
+        display: block;
+      }
+      h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+      }
+      hr {
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible;
+      }
+      pre {
+        font-family: monospace, monospace;
+        font-size: 1em;
+      }
+      a {
+        background-color: transparent;
+      }
+      abbr[title] {
+        border-bottom: none;
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+        -webkit-text-decoration: underline dotted;
+        text-decoration: underline dotted;
+      }
+      b,
+      strong {
+        font-weight: bolder;
+      }
+      code,
+      kbd,
+      samp {
+        font-family: monospace, monospace;
+        font-size: 1em;
+      }
+      small {
+        font-size: 80%;
+      }
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
+      sub {
+        bottom: -0.25em;
+      }
+      sup {
+        top: -0.5em;
+      }
+      img {
+        border-style: none;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      input {
+        overflow: visible;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focusring,
+      [type="button"]:-moz-focusring,
+      [type="reset"]:-moz-focusring,
+      [type="submit"]:-moz-focusring {
+        outline: 1px dotted ButtonText;
+      }
+      fieldset {
+        padding: 0.35em 0.75em 0.625em;
+      }
+      legend {
+        box-sizing: border-box;
+        color: inherit;
+        display: table;
+        max-width: 100%;
+        padding: 0;
+        white-space: normal;
+      }
+      progress {
+        vertical-align: baseline;
+      }
+      textarea {
+        overflow: auto;
+      }
+      [type="checkbox"],
+      [type="radio"] {
+        box-sizing: border-box;
+        padding: 0;
+      }
+      [type="number"]::-webkit-inner-spin-button,
+      [type="number"]::-webkit-outer-spin-button {
+        height: auto;
+      }
+      [type="search"] {
+        -webkit-appearance: textfield;
+        outline-offset: -2px;
+      }
+      [type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
+      ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        font: inherit;
+      }
+      details {
+        display: block;
+      }
+      summary {
+        display: list-item;
+      }
+      template {
+        display: none;
+      }
+      [hidden] {
+        display: none;
+      }
+      /* sc-component-id: sc-global-2858177922 */
+      @font-face {
+        font-family: "Lacoste Sans";
+        src: url("/static/fonts/LacosteSans.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Lacoste Sans";
+        src: url("/static/fonts/LacosteSansItalic.woff") format("woff");
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Lacoste Sans";
+        src: url("/static/fonts/LacosteSansLight.woff") format("woff");
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Lacoste Sans";
+        src: url("/static/fonts/LacosteSansLightItalic.woff") format("woff");
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Lacoste Sans";
+        src: url("/static/fonts/LacosteSansBold.woff") format("woff");
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Lacoste Sans Condensed";
+        src: url("/static/fonts/LacosteSansCondensedThin.woff") format("woff");
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Lacoste Sans Condensed";
+        src: url("/static/fonts/LacosteSansCondensedLight.woff") format("woff");
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Lacoste Sans Condensed";
+        src: url("/static/fonts/LacosteSansCondensedBold.woff") format("woff");
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+      }
+      /* sc-component-id: sc-global-461020025 */
+      #nprogress {
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 4;
+      }
+      #nprogress .bar {
+        background-color: #105a33;
+        height: 2px;
+      }
+      /* sc-component-id: Desktop__Wrapper-sc-147kts1-0 */
+      .jKeOvg {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        position: relative;
+      }
+      /* sc-component-id: Desktop__MainWrapper-sc-147kts1-3 */
+      .ldnizt {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+        background: #f4f4f4;
+      }
+      /* sc-component-id: Desktop__PageContentOverlay-sc-147kts1-6 */
+      .gUrMiz {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        background: #000000;
+        -webkit-transition: opacity 0.3s linear;
+        transition: opacity 0.3s linear;
+      }
+    </style>
   </head>
-
   <body>
-    <div>
-      <script
-        type="text/javascript"
-        src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/javascripts/jquery-1.11.0.min.js"
-      ></script>
-      <script
-        type="text/javascript"
-        src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/javascripts/main.js"
-      ></script>
-      <link
-        type="text/css"
-        rel="stylesheet"
-        href="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/stylesheets/main.css"
-      />
-      <div class="main-block poloshop-nav-container">
-        <div class="nav-container" id="nav-poloshop">
-          <div class="nav-title">Le polo Lacoste</div>
-          <div class="nav-items-container">
-            <ul class="nav-items-wrapper">
-              <li class="nav-item"><a href="/polo-shop">Polos</a></li>
-              <li class="nav-item">
-                <a href="/polo-guide-men" class="active">Polo Fit Guide</a>
-              </li>
-              <li class="nav-item">
-                <a href="/men/polos/new_arrival">Polos for him</a>
-              </li>
-              <li class="nav-item">
-                <a href="/women/polos/new_arrival">Polos for her</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="/lacoste-brand/lacoste-savoir-faire">Savoir-faire</a>
-              </li>
-              <li class="nav-item">
-                <a href="/how-to-wear">How to wear your polo</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="main-block tile-collection polo-guide">
-        <div class="polo-series-wrapper">
+    <div id="__next">
+      <div>
+        <div>
           <div
-            class="tile"
-            id="polo-series-slider"
-            style="position: absolute; width: calc(56.5217%); top: 0px;"
+            class="htmlElements__Div-sc-1e1gdav-0 Desktop__Wrapper-sc-147kts1-0 jKeOvg"
           >
-            <button class="close-fit desktop-visible"></button>
-            <div class="slide-info">
-              <div class="title">
-                <div class="poloshop-title">エレガント</div>
-                <div class="poloshop-sub-title">Slim Fit</div>
-                <div class="poloshop-text-container">
-                  <div class="poloshop-sub-title-1">3/4 Sleeve</div>
-                </div>
-                <div class="slide-btn" style="line-height: 15px;">
-                  <div class="tile-list-cta">
-                    <div class="tile-btn">
-                      <a
-                        href="/collection/polos-slim-fit-shirt-women"
-                        class="black"
-                        >Shop now</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="slides-block" style="visibility: visible;">
-              <div
-                class="slick-slider-guide women polo-series slick-initialized slick-slider slick-dotted"
-              >
-                <button
-                  type="button"
-                  class="swiper-button-prev nav-control slick-arrow"
-                  style="display: block;"
-                ></button>
-                <div class="slick-list draggable">
-                  <div class="slick-track" style="opacity: 1; width: 2216px;">
-                    <div
-                      class="slick-slide slick-current slick-active"
-                      data-slick-index="0"
-                      aria-hidden="false"
-                      tabindex="0"
-                      role="tabpanel"
-                      id="slick-slide00"
-                      aria-describedby="slick-slide-control00"
-                      style="width: 1108px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;"
-                    >
-                      <div class="slide-media">
-                        <img
-                          src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-slim-shirt-view-1-withanim.png"
-                          class="desktop-hidden"
-                        /><img
-                          src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-slim-shirt-view-mobile-1.png"
-                          class="desktop-visible"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="slick-slide"
-                      data-slick-index="1"
-                      aria-hidden="true"
-                      tabindex="-1"
-                      role="tabpanel"
-                      id="slick-slide01"
-                      aria-describedby="slick-slide-control01"
-                      style="width: 1108px; position: relative; left: -1108px; top: 0px; z-index: 998; opacity: 0;"
-                    >
-                      <div class="slide-media">
-                        <img
-                          src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-slim-shirt-view-2.png"
-                          class="desktop-hidden"
-                        /><img
-                          src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-slim-shirt-view-mobile-2.png"
-                          class="desktop-visible"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <button
-                  type="button"
-                  class="swiper-button-next nav-control slick-arrow"
-                  style="display: block;"
-                ></button>
-                <ul class="slick-dots" style="display: block;" role="tablist">
-                  <li class="slick-active" role="presentation">
-                    <button
-                      type="button"
-                      role="tab"
-                      id="slick-slide-control00"
-                      aria-controls="slick-slide00"
-                      aria-label="1 of 2"
-                      tabindex="0"
-                      aria-selected="true"
-                    >
-                      1
-                    </button>
-                  </li>
-                  <li role="presentation">
-                    <button
-                      type="button"
-                      role="tab"
-                      id="slick-slide-control01"
-                      aria-controls="slick-slide01"
-                      aria-label="2 of 2"
-                      tabindex="-1"
-                    >
-                      2
-                    </button>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="tile" id="polo-series-fitdescription">
-            <button class="close-fit desktop-hidden"></button>
-            <div class="header">
-              <div class="title"></div>
-              <div class="subtitle">Elegant style</div>
-              <div class="text-container">
-                <div class="simplecontent">
-                  <ul>
-                    <li>- ぴったりとしたフィット</li>
-                    <li>- 比翼仕立て</li>
-                    <li>- 七分袖</li>
-                    <li>- 伸縮性のあるミニピケ生地</li>
-                    <li>- ポロシャツと同系色のワニ</li>
-                  </ul>
-                </div>
-                <div class="tile-list-cta">
-                  <div class="tile-btn">
-                    <a href="/collection/polos-slim-fit-shirt-women"
-                      >Shop the slim fit shirts</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="tile" id="polo-series-fabric">
-            <div class="header">
-              <div class="title">Iconic fabric</div>
-            </div>
-            <div class="tile-media">
-              <div class="slide-media">
-                <a href="/collection/polos-slim-fit-shirt-women"
-                  ><img
-                    src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-stretch.jpg"
-                /></a>
-              </div>
-              <div class="slide-info">
-                <div class="title">
-                  <div class="poloshop-sub-title">Stretch mini piqué</div>
-                  <div class="tag-title">
-                    伸縮性が抜群の「ミニピケ」素材を使用しているため、しわになりにくく、動きやすさと着心地のよさを同時に実感いただけます。
-                  </div>
-                  <div class="slide-btn">
-                    <div class="tile-list-cta">
-                      <div class="tile-btn">
-                        <a
-                          href="/collection/polos-slim-fit-shirt-women"
-                          class="white"
-                          >Browse these polos</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tile" id="polo-series-careadvice">
-            <div class="header">
-              <div class="title">洗濯方法</div>
-              <div class="title-1">Care advice</div>
-              <img
-                src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-men-care-advice-2.jpg"
-              />
-              <div class="subtitle">30°C以下で洗ってください</div>
-              <div class="text-container">
-                <div class="simplecontent">
-                  洗濯機は30°C以下のコットン手洗いモードに設定し、中性液体洗剤をご使用ください。ポロシャツは裏返して洗濯されることをおすすめします。
-                </div>
-                <img
-                  src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-men-care-advice-1.jpg"
+            <main class="Desktop__MainWrapper-sc-147kts1-3 ldnizt">
+              <div>
+                <script
+                  type="text/javascript"
+                  src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/javascripts/jquery-1.11.0.min.js"
+                ></script>
+                <script
+                  type="text/javascript"
+                  src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/javascripts/main.js"
+                ></script>
+                <link
+                  type="text/css"
+                  rel="stylesheet"
+                  href="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/stylesheets/main.css"
                 />
-                <div class="subtitle-1">乾燥機は使用しないでください</div>
-                <div class="text1">
-                  自然乾燥させることにより、長くお使いいただけます。
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tile" id="polo-series-otherfits">
-            <div class="header">
-              <div class="title">See other fits</div>
-            </div>
-            <div class="tile-media">
-              <div class="column-two">
-                <div class="slide-media">
-                  <a href="/polo-guide-women/classic-fit-women"
-                    ><img
-                      src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-otherfits-classic.gif"
-                  /></a>
-                </div>
-                <div class="slide-info">
-                  <div class="title">
-                    <div class="poloshop-title">アイコニック</div>
-                    <div class="poloshop-sub-title">Classic</div>
-                    <div class="tag-title">Fit</div>
+                <div class="main-block poloshop-nav-container">
+                  <div class="nav-container" id="nav-poloshop">
+                    <div class="nav-title">Le polo Lacoste</div>
+                    <div class="nav-items-container">
+                      <ul class="nav-items-wrapper">
+                        <li class="nav-item"><a href="/polo-shop">Polos</a></li>
+                        <li class="nav-item">
+                          <a href="/polo-guide-men" class="active"
+                            >Polo Fit Guide</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a href="/men/polos/new_arrival">Polos for him</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="/women/polos/new_arrival">Polos for her</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a href="/lacoste-brand/lacoste-savoir-faire"
+                            >Savoir-faire</a
+                          >
+                        </li>
+                        <li class="nav-item">
+                          <a href="/how-to-wear">How to wear your polo</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <div class="slide-btn">
-                    <div class="tile-list-cta">
-                      <div class="tile-btn">
-                        <a
-                          href="/polo-guide-women/classic-fit-women"
-                          class="btn-icon"
-                          ><img
-                            src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/arrow-right-dark.svg"
-                            class="black"/><img
-                            src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/arrow-right-white.svg"
-                            class="white"
-                        /></a>
+                </div>
+                <div class="main-block tile-collection polo-guide">
+                  <div class="polo-series-wrapper">
+                    <div class="tile" id="polo-series-slider">
+                      <button class="close-fit desktop-visible"></button>
+                      <div class="slide-info">
+                        <div class="title">
+                          <div class="poloshop-title">エレガント</div>
+                          <div class="poloshop-sub-title">Slim Fit</div>
+                          <div class="poloshop-text-container">
+                            <div class="poloshop-sub-title-1">3/4 Sleeve</div>
+                          </div>
+                          <div class="slide-btn" style="line-height: 15px;">
+                            <div class="tile-list-cta">
+                              <div class="tile-btn">
+                                <a
+                                  href="/collection/polos-slim-fit-shirt-women"
+                                  class="black"
+                                  >Shop now</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slides-block">
+                        <div class="slick-slider-guide women polo-series">
+                          <div>
+                            <div class="slide-media">
+                              <img
+                                src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-slim-shirt-view-1-withanim.png"
+                                class="desktop-hidden"
+                              /><img
+                                src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-slim-shirt-view-mobile-1.png"
+                                class="desktop-visible"
+                              />
+                            </div>
+                          </div>
+                          <div>
+                            <div class="slide-media">
+                              <img
+                                src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-slim-shirt-view-2.png"
+                                class="desktop-hidden"
+                              /><img
+                                src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-slim-shirt-view-mobile-2.png"
+                                class="desktop-visible"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tile" id="polo-series-fitdescription">
+                      <button class="close-fit desktop-hidden"></button>
+                      <div class="header">
+                        <div class="title"></div>
+                        <div class="subtitle">Elegant style</div>
+                        <div class="text-container">
+                          <div class="simplecontent">
+                            <ul>
+                              <li>- ぴったりとしたフィット</li>
+                              <li>- 比翼仕立て</li>
+                              <li>- 七分袖</li>
+                              <li>- 伸縮性のあるミニピケ生地</li>
+                              <li>- ポロシャツと同系色のワニ</li>
+                            </ul>
+                          </div>
+                          <div class="tile-list-cta">
+                            <div class="tile-btn">
+                              <a href="/collection/polos-slim-fit-shirt-women"
+                                >Shop the slim fit shirts</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="tile" id="polo-series-fabric">
+                      <div class="header">
+                        <div class="title">Iconic fabric</div>
+                      </div>
+                      <div class="tile-media">
+                        <div class="slide-media">
+                          <a href="/collection/polos-slim-fit-shirt-women"
+                            ><img
+                              src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-stretch.jpg"
+                          /></a>
+                        </div>
+                        <div class="slide-info">
+                          <div class="title">
+                            <div class="poloshop-sub-title">
+                              Stretch mini piqué
+                            </div>
+                            <div class="tag-title">
+                              伸縮性が抜群の「ミニピケ」素材を使用しているため、しわになりにくく、動きやすさと着心地のよさを同時に実感いただけます。
+                            </div>
+                            <div class="slide-btn">
+                              <div class="tile-list-cta">
+                                <div class="tile-btn">
+                                  <a
+                                    href="/collection/polos-slim-fit-shirt-women"
+                                    class="white"
+                                    >Browse these polos</a
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tile" id="polo-series-careadvice">
+                      <div class="header">
+                        <div class="title">洗濯方法</div>
+                        <div class="title-1">Care advice</div>
+                        <img
+                          src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-men-care-advice-2.jpg"
+                        />
+                        <div class="subtitle">30°C以下で洗ってください</div>
+                        <div class="text-container">
+                          <div class="simplecontent">
+                            洗濯機は30°C以下のコットン手洗いモードに設定し、中性液体洗剤をご使用ください。ポロシャツは裏返して洗濯されることをおすすめします。
+                          </div>
+                          <img
+                            src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-men-care-advice-1.jpg"
+                          />
+                          <div class="subtitle-1">
+                            乾燥機は使用しないでください
+                          </div>
+                          <div class="text1">
+                            自然乾燥させることにより、長くお使いいただけます。
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tile" id="polo-series-otherfits">
+                      <div class="header">
+                        <div class="title">See other fits</div>
+                      </div>
+                      <div class="tile-media">
+                        <div class="column-two">
+                          <div class="slide-media">
+                            <a href="/polo-guide-women/classic-fit-women"
+                              ><img
+                                src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-otherfits-classic.gif"
+                            /></a>
+                          </div>
+                          <div class="slide-info">
+                            <div class="title">
+                              <div class="poloshop-title">アイコニック</div>
+                              <div class="poloshop-sub-title">Classic</div>
+                              <div class="tag-title">Fit</div>
+                            </div>
+                            <div class="slide-btn">
+                              <div class="tile-list-cta">
+                                <div class="tile-btn">
+                                  <a
+                                    href="/polo-guide-women/classic-fit-women"
+                                    class="btn-icon"
+                                    ><img
+                                      src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/arrow-right-dark.svg"
+                                      class="black"/><img
+                                      src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/arrow-right-white.svg"
+                                      class="white"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="column-two">
+                          <div class="slide-media">
+                            <a href="/polo-guide-women/slim-fit-women"
+                              ><img
+                                src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-otherfits-slim.gif"
+                            /></a>
+                          </div>
+                          <div class="slide-info">
+                            <div class="title">
+                              <div class="poloshop-title">フェミニン</div>
+                              <div class="poloshop-sub-title">Slim</div>
+                              <div class="tag-title">Fit</div>
+                            </div>
+                            <div class="slide-btn">
+                              <div class="tile-list-cta">
+                                <div class="tile-btn">
+                                  <a
+                                    href="/polo-guide-women/slim-fit-women"
+                                    class="btn-icon"
+                                    ><img
+                                      src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/arrow-right-dark.svg"
+                                      class="black"/><img
+                                      src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/arrow-right-white.svg"
+                                      class="white"
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="column-two">
-                <div class="slide-media">
-                  <a href="/polo-guide-women/slim-fit-women"
-                    ><img
-                      src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/poloshop-fits-women-otherfits-slim.gif"
-                  /></a>
-                </div>
-                <div class="slide-info">
-                  <div class="title">
-                    <div class="poloshop-title">フェミニン</div>
-                    <div class="poloshop-sub-title">Slim</div>
-                    <div class="tag-title">Fit</div>
-                  </div>
-                  <div class="slide-btn">
-                    <div class="tile-list-cta">
-                      <div class="tile-btn">
-                        <a
-                          href="/polo-guide-women/slim-fit-women"
-                          class="btn-icon"
-                          ><img
-                            src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/arrow-right-dark.svg"
-                            class="black"/><img
-                            src="//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/system/micro_site_containers/23/20181002064718789362486/templates/images/arrow-right-white.svg"
-                            class="white"
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </main>
+            <div class="Desktop__PageContentOverlay-sc-147kts1-6 gUrMiz"></div>
           </div>
+          <div></div>
         </div>
       </div>
     </div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {"dataManager":"[]","props":{"isServer":true,"initialState":{"cart":{"cart":{},"couponCodeInput":null,"state":{"type":null},"Abilities":[],"isGuestUser":true},"locale":"ja","config":{"CLIENT_NEWSLETTER_LIST_ID":"285f2738fa","CLIENT_NEWSLETTER_USER_ID":"a98186cebdf8540a2a5149105","CLIENT_OPLUX_SERVICE_ENABLE":"true","CLIENT_AMAZON_PAY_MERCHANT_ID":"A3SI3U909TFYWU","CLIENT_NEWSLETTER_ACTION":"https://theplant-dev.us19.list-manage.com/subscribe/post-json","CLIENT_GOOGLE_MAP_KEY":"AIzaSyCwyNDNGBsqxiEx3fO5GQqBAJlDHHZBrJc","CLIENT_AIRBRAKE_PROJECT_ID":"176066","CLIENT_GTM_ID":"GTM-PRBGTTW","CLIENT_AMAZON_PAY_CLIENT_ID":"amzn1.application-oa2-client.c5112c5bef504a2fa2356db87f6164f8","CLIENT_MAILCHIMP_CONNECTION_SITE_ID":"fb12be445df70fd9c96f6330b","CLIENT_AIRBRAKE_ENVIRONMENT":"dev","CLIENT_OPLUX_SERVICE_STORE_ID":"GoDOLsWlWb","CLIENT_OPLUX_SERVICE_URL":"https://staging.kohi.o-plux.com/static/js/oplux.js","CLIENT_REQUIRE_AUTHENTICATION_QUERY":"need-auth","CLIENT_GOOGLE_MERCHANT_CENTER_META_CONTENT":"place-holder-for-demo-site","CLIENT_API_ROOT":"{\"*\":\"https://dev-lacoste-api.aldt.theplant-dev.com/api\",\"theplant.ec.service.page_builder.PageBuilderService\":\"https://dev-lacoste-cmsapi.aldt.theplant-dev.com/api\",\"theplant.ec.api.blog.BlogService\":\"https://dev-lacoste-cmsapi.aldt.theplant-dev.com/api\"}","CLIENT_AMAZON_PAY_WIDGETS_JS_URL":"https://static-fe.payments-amazon.com/OffAmazonPayments/jp/sandbox/lpa/js/Widgets.js","CLIENT_AIRBRAKE_PROJECT_KEY":"711264e9e597f397365ca96a382dd266","CLIENT_OPLUX_SERVICE_MODEL_ID":"rLsmgIaSAw","CLIENT_MAILCHIMP_CONNECTION_ACCOUNT_ID":"a98186cebdf8540a2a5149105"},"instore":{"isInstore":false},"user":{"fetching":false},"responsive":{"phone":false,"tablet":false,"mobile":false,"desktop":true,"fakeWidth":1200},"personInfo":{"input":{"form":{}},"dirtyFields":{},"submitState":"new"},"shippingAddress":{"input":{"form":{}},"dirtyFields":{},"submitState":"new"},"signup":{"input":{"form":{}},"dirtyFields":{},"submitState":"new"},"checkout":{"data":{"data":null,"state":{"type":null}},"points":{"availableUsePoint":null,"pointsInput":null,"state":{"type":null}},"confirmResult":{"result":null,"state":{"type":null}},"users":{"input":{"loginForm":{},"isEmailExists":false,"registerForm":{}},"dirtyFields":{},"submitState":"new"},"order":{"input":{"form":{"specifyBillingAddress":false,"deliveryMethod":0,"deliveryInfo":{"specified":false},"paymentType":2,"isSubscribed":true,"isSubscribedSms":true},"state":null},"dirtyFields":{},"submitState":"new"}},"storeFinder":{"isInMapView":false,"state":{"type":null},"allStores":[],"storesResults":[]},"newsletter":{"input":{"form":{}},"dirtyFields":{},"submitState":"new"}},"initialProps":{"pageProps":{"containerProps":[{"navigationProps":{"menuItems":[{"id":"23","code":"gender-menu","position":10,"productsCount":"-1","items":[{"id":"26","title":"最新情報","description":"最新情報","position":100,"extraProps":[{"field":"SubitemType","values":["MenuBlockList"]}],"productsCount":"288","linkUrl":"/men/clothing/new_arrival","items":[{"id":"33","title":"Team Lacoste 10% OFF","imageUrl":"//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/menu_items/33/image/20180720_flyaway_nouvelle.20180727011818270844034.jpg","position":5000,"productsCount":"200","linkUrl":"/collection/team-lacoste-campaign","imageLinkUrl":"/collection/team-lacoste-campaign","images":[{"style":"MenuBlockImage","imagePacket":{"url":"//assets-lacoste.theplant-dev.com/menu_images/21/image/wechatimg1.20190417023906100663.MenuBlockImage@1.png","url_2x":"//assets-lacoste.theplant-dev.com/menu_images/21/image/wechatimg1.20190417023906100663.MenuBlockImage@2.png","url_3x":"//assets-lacoste.theplant-dev.com/menu_images/21/image/wechatimg1.20190417023906100663.MenuBlockImage@3.png"}}]},{"id":"238","title":"Keith Haring","position":6666,"productsCount":"200","linkUrl":"/collection/team-lacoste-campaign","imageLinkUrl":"/collection/team-lacoste-campaign","images":[{"style":"MenuBlockImage","imagePacket":{"url":"//assets-lacoste.theplant-dev.com/menu_images/23/image/04-12-keith-haring-20190412014327988111-original.20190416084526640576.MenuBlockImage@1.jpg","url_2x":"//assets-lacoste.theplant-dev.com/menu_images/23/image/04-12-keith-haring-20190412014327988111-original.20190416084526640576.MenuBlockImage@2.jpg","url_3x":"//assets-lacoste.theplant-dev.com/menu_images/23/image/04-12-keith-haring-20190412014327988111-original.20190416084526640576.MenuBlockImage@3.jpg"}}]},{"id":"34","title":"Golden Week Travel Collection","imageUrl":"//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/menu_items/34/image/20180720_flyaway_footwear.20180727015418391259158.jpg","position":7000,"productsCount":"-1","linkUrl":"/collection/golden-week-travel","imageLinkUrl":"/collection/golden-week-travel","images":[{"style":"MenuBlockImage","imagePacket":{"url":"//assets-lacoste.theplant-dev.com/menu_images/17/image/wechatimg2.20190416070246082105.MenuBlockImage@1.png","url_2x":"//assets-lacoste.theplant-dev.com/menu_images/17/image/wechatimg2.20190416070246082105.MenuBlockImage@2.png","url_3x":"//assets-lacoste.theplant-dev.com/menu_images/17/image/wechatimg2.20190416070246082105.MenuBlockImage@3.png"}}]},{"id":"234","title":"Web Exclusive","position":9000,"productsCount":"-1","linkUrl":"/collection/web-exclusive","imageLinkUrl":"/collection/web-exclusive","images":[{"style":"MenuBlockImage","imagePacket":{"url":"//assets-lacoste.theplant-dev.com/menu_images/22/image/wechatimg4.20190416084123289091.MenuBlockImage@1.png","url_2x":"//assets-lacoste.theplant-dev.com/menu_images/22/image/wechatimg4.20190416084123289091.MenuBlockImage@2.png","url_3x":"//assets-lacoste.theplant-dev.com/menu_images/22/image/wechatimg4.20190416084123289091.MenuBlockImage@3.png"}}]}],"imageLinkUrl":"/men/clothing/new_arrival"},{"id":"19","title":"メンズ","description":"メンズ コレクション","position":200,"productsCount":"467","linkUrl":"/men","items":[{"id":"24","title":"アパレル","description":"アパレルすべて見る","position":1000,"productsCount":"288","linkUrl":"/men/clothing","items":[{"id":"25","title":"新着","position":1001,"productsCount":"288","linkUrl":"/men/clothing/new_arrival"},{"id":"53","title":"人気アイテム","position":1002,"productsCount":"1","linkUrl":"/men/clothing/featured"},{"id":"54","title":"ポロシャツ","position":1003,"productsCount":"79","linkUrl":"/men/clothing/polos"},{"id":"55","title":"Tシャツ","position":1004,"productsCount":"31","linkUrl":"/men/clothing/tshirts"},{"id":"56","title":"シャツ","position":1005,"productsCount":"46","linkUrl":"/men/clothing/shirts"},{"id":"64","title":"セーター・ニット","position":1006,"productsCount":"21","linkUrl":"/men/clothing/sweaters"},{"id":"65","title":"スウェット","position":1007,"productsCount":"39","linkUrl":"/men/clothing/sweatshirts"},{"id":"66","title":"アウター・コート","position":1008,"productsCount":"22","linkUrl":"/men/clothing/blouson-coat"},{"id":"67","title":"パンツ","position":1009,"productsCount":"30","linkUrl":"/men/clothing/pants"},{"id":"68","title":"トラックスーツ","position":1010,"productsCount":"8","linkUrl":"/men/clothing/tracksuits"},{"id":"69","title":"小さい・大きいサイズ","position":1011,"productsCount":"19","linkUrl":"/men/clothing/bigsize"},{"id":"70","title":"カスタムポロ","position":1012,"productsCount":"-1","imageLinkUrl":"/men/custom_product"}]},{"id":"50","title":"シューズ","description":"シューズすべて見る","position":2000,"productsCount":"48","linkUrl":"/men/shoes","items":[{"id":"73","title":"レザースニーカー","position":2003,"productsCount":"21","linkUrl":"/men/shoes/leather-sneakers"},{"id":"74","title":"キャンバススニーカー","position":2004,"productsCount":"6","linkUrl":"/men/shoes/canvas-sneakers"},{"id":"75","title":"サンダル","position":2005,"productsCount":"3","linkUrl":"/men/shoes/sandals"},{"id":"76","title":"スポーツシューズ","position":2006,"productsCount":"16","linkUrl":"/men/shoes/sports-shoes"}]},{"id":"51","title":"アクセサリー","description":"アクセサリーすべて見る","position":3000,"productsCount":"88","linkUrl":"/men/accessories","items":[{"id":"78","title":"人気アイテム","position":3002,"productsCount":"88","linkUrl":"/men/accessories/featured"},{"id":"79","title":"バッグ","position":3003,"productsCount":"11","linkUrl":"/men/accessories/bags"},{"id":"80","title":"小物","position":3004,"productsCount":"12","linkUrl":"/men/accessories/small"},{"id":"81","title":"ベルト","position":3005,"productsCount":"10","linkUrl":"/men/accessories/belts"},{"id":"82","title":"キャップ・ハット","position":3006,"productsCount":"11","linkUrl":"/men/accessories/caps-hats"},{"id":"83","title":"アンダーウェア","position":3007,"productsCount":"6","linkUrl":"/men/accessories/underwear"},{"id":"84","title":"ソックス","position":3008,"productsCount":"15","linkUrl":"/men/accessories/socks"},{"id":"85","title":"タオル","position":3009,"productsCount":"6","linkUrl":"/men/accessories/towels"},{"id":"86","title":"スカーフ・マフラー","position":3010,"productsCount":"7","linkUrl":"/men/accessories/scarves-bandanas"},{"id":"87","title":"グローブ・リストバンド","position":3011,"productsCount":"2","linkUrl":"/men/accessories/gloves-wristbands"},{"id":"90","title":"サングラス","position":3014,"productsCount":"1","linkUrl":"/men/accessories/eyewear"}]},{"id":"52","title":"FEATURED ITEMS","description":"   ","position":4000,"productsCount":"-1","items":[{"id":"91","title":"パリポロ","position":4001,"productsCount":"-1"},{"id":"92","title":"2018秋冬 ファッションショー","position":4002,"productsCount":"-1"},{"id":"93","title":"カスタムポロ","position":4003,"productsCount":"-1"},{"id":"94","title":"カードギフト","position":4004,"productsCount":"-1"}]},{"id":"57","title":"Men AD List","position":5000,"extraProps":[{"field":"SubitemType","values":["AdvertList"]}],"productsCount":"-1","items":[{"id":"58","title":"Lacoste Sport","description":"SPRING SUMMER COLLECTION","position":10000,"productsCount":"-1","linkUrl":"/sport?Gender=MALE","items":[{"id":"59","title":"image","imageUrl":"//lacoste-dev-app.s3.ap-northeast-1.amazonaws.com/menu_items/59/image/20180503_rich_menu_banner_01.20180727022918841192170.jpg","position":100000,"productsCount":"-1","images":[{"style":"AdvertImage","imagePacket":{"url":"//lacoste-dev-app.s3.ap-north…</script
+    ><script
+      async=""
+      id="__NEXT_PAGE__/pagebuilder"
+      src="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/h3ulB7yOzdGyxAz53KCXR/pages/pagebuilder.js"
+    ></script
+    ><script
+      async=""
+      id="__NEXT_PAGE__/_app"
+      src="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/h3ulB7yOzdGyxAz53KCXR/pages/_app.js"
+    ></script
+    ><script
+      src="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/runtime/webpack-a79426b5e11f0ba5879d.js"
+      async=""
+    ></script
+    ><script
+      src="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/chunks/commons.962e504b0f99b805c7b9.js"
+      async=""
+    ></script
+    ><script
+      src="https://assets-lacoste.theplant-dev.com/assets/bf7f28c9/_next/static/runtime/main-51be5f2ee146b63c5759.js"
+      async=""
+    ></script>
   </body>
 </html>
