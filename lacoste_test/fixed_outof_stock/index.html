@@ -17,11 +17,12 @@
       <br />
       1. the jQuery
       <br />
-      2. mirco site main.js
+      2. mirco site main.js (fixed the infinite function calling at
+      https://github.com/lizhengchao/lizhengchao.github.io/commit/ca6bd7815d13a426aa462e713e757e27e1d5ade9#diff-c26d223abfb6f1d82b9e04721dcc4f8e)
       <br />
       3. lacoste webpack.js & commons.js & main.js
     </p>
-    <p>It will log an "out of stack" error in console in IE11</p>
+    <p>It won't log an "out of stack" error</p>
     <script>
       new Map();
     </script>
