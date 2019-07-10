@@ -7452,7 +7452,7 @@ return Swiper$1;
       !(function(e) {
         function t(e, t) {
           function r(e) {
-            if (!this || this.constructor !== r){ console.log("this.constructor:", this ? this.constructor : "haven't this"); console.trace();return new r(e)};
+            if (!this || this.constructor !== r.prototype.constructor){ return new r(e)};
             (this._keys = []),
               (this._values = []),
               (this._itp = []),
